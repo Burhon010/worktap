@@ -18,20 +18,15 @@ function Header() {
           <Link to="/birja" className="transition hover:text-emerald-600">
             Ворки
           </Link>
-          <button
-            type="button"
-            onClick={() => open('soon')}
-            className="transition hover:text-emerald-600"
-          >
+          <Link to="/konkursy" className="transition hover:text-emerald-600">
             Конкурсы
-          </button>
-          <button
-            type="button"
-            onClick={() => open('soon')}
+          </Link>
+          <Link
+            to="/create-order"
             className="transition hover:text-emerald-600"
           >
             Создать заказ
-          </button>
+          </Link>
         </nav>
         <div className="flex items-center gap-3">
           <button
